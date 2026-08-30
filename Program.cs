@@ -45,13 +45,22 @@
             #endregion
 
             #region Question Five
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int count = 0;
+            //while (count < 3)
+            //{
+            //    Console.WriteLine(books[count]);
+            //    count++;
+            //}
+            #endregion
+
+            #region Question Six
             int count = 0;
-            while (count < 3)
+            do
             {
-                Console.WriteLine(books[count]);
+                Console.WriteLine("Checking book...");
                 count++;
-            }
+            } while (count < 3);
             #endregion
         }
     }
