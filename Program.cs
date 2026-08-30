@@ -37,10 +37,20 @@
             #endregion
 
             #region Question Four
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine(books[i]);
+            //}
+            #endregion
+
+            #region Question Five
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            for(int i = 0; i < 3; i++)
+            int count = 0;
+            while (count < 3)
             {
-                Console.WriteLine(books[i]);
+                Console.WriteLine(books[count]);
+                count++;
             }
             #endregion
         }
