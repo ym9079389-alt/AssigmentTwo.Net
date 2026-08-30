@@ -55,12 +55,20 @@
             #endregion
 
             #region Question Six
-            int count = 0;
-            do
+            //int count = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    count++;
+            //} while (count < 3);
+            #endregion
+
+            #region Question Seven
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            foreach (string book in books)
             {
-                Console.WriteLine("Checking book...");
-                count++;
-            } while (count < 3);
+                Console.WriteLine(book);
+            }
             #endregion
         }
     }
