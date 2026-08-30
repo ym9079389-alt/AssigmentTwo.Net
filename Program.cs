@@ -72,12 +72,24 @@
             #endregion
 
             #region Question Eight
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    if (books[i] == "Refactoring")
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(books[i]);
+            //}
+            #endregion
+
+            #region Question Nine
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             for (int i = 0; i < 3; i++)
             {
-                if (books[i] == "Refactoring")
+                if (books[i] == "The Pragmatic Programmer")
                 {
-                    break;
+                    continue;
                 }
                 Console.WriteLine(books[i]);
             }
