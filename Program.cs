@@ -4,14 +4,32 @@
     {
         static void Main(string[] args)
         {
-            #region Question One
-            int pages = 464;
-            bool isAvailable = true;
-            if(pages > 300 && isAvailable)
+           #region Question One
+            //int pages = 464;
+            //bool isAvailable = true;
+            //if(pages > 300 && isAvailable)
+            //{
+            //    Console.WriteLine("You can borrow this book");
+            //}
+            #endregion 
+
+            #region Question Two
+            string title = "Refactoring";
+
+            switch (title)
             {
-                Console.WriteLine("You can borrow this book");
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
             }
             #endregion
+        
         }
     }
 }
