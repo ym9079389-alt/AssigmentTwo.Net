@@ -31,9 +31,17 @@
             #endregion
 
             #region Question Three
-            int pages = 464;
-            string res = pages <= 300 ? "Short Book" : "Long Book";
-            Console.WriteLine(res);
+            //int pages = 464;
+            //string res = pages <= 300 ? "Short Book" : "Long Book";
+            //Console.WriteLine(res);
+            #endregion
+
+            #region Question Four
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for(int i = 0; i < 3; i++)
+            {
+                Console.WriteLine(books[i]);
+            }
             #endregion
         }
     }
